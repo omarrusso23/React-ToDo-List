@@ -64,6 +64,35 @@ box-shadow:  8px 8px 12px #141114,
     height: 90vh;
 }
 
+.toggle {
+    isolation: isolate;
+    position: relative;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    overflow: hidden;
+    border-radius: 41px;
+    background: #7B0707;
+    box-shadow: inset 7px 7px 13px #560505,
+                inset -7px -7px 13px #a00909;
+  }
+  
+  .toggle-state {
+    display: none;
+  }
+  
+  .indicator {
+    height: 100%;
+    width: 200%;
+    background: #ecf0f3;        border-radius: 15px;
+    transform: translate3d(-75%, 0, 0);
+    transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+  }
+  
+  .toggle-state:checked ~ .indicator {
+    transform: translate3d(25%, 0, 0);
+  }
+
 .itemListContainer{
     overflow-y: auto;
     height: 59vh;
@@ -147,9 +176,9 @@ box-shadow:  8px 8px 12px #141114,
     display: flex;
     flex-direction: row;
     border-radius: 18px;
-    background: #262127;
-    box-shadow: inset 12px 12px 24px #181418,
-                inset -12px -12px 24px #342e36;
+    background: linear-gradient(145deg, #29232a, #221e23);
+    box-shadow:  5px 5px 10px #1d191e,
+                 -5px -5px 10px #2f2930;
     width: 100%;
 }
 
@@ -303,7 +332,7 @@ li{
   }
   
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     .todoContainer{
         display: flex;
         justify-content: center;
@@ -331,9 +360,9 @@ li{
         top:5vh;
         position: relative;
         border-radius: 9px;
-    background: linear-gradient(145deg, #29232a, #221e23);
-    box-shadow:  8px 8px 12px #141114,
-                 -8px -8px 12px #38313a;
+        background: linear-gradient(145deg, #29232a, #221e23);
+        box-shadow:  8px 8px 12px #141114,
+                    -8px -8px 12px #38313a;
     }
 
     .addButton{
@@ -341,7 +370,7 @@ li{
         height: 50px;
         position: fixed;
         top: 85%;
-        left: 85%;
+        left: 82%;
         color:#F7253C;
         border-radius: 18px;
         background: #262127;
@@ -369,7 +398,59 @@ li{
         background: #790101;border-radius: 31px;
       }
     
-    
+      .todoBody{
+        border-radius: 15px;
+        background: linear-gradient(145deg, #282229, #211d22);
+        box-shadow:  14px 14px 28px #151216,
+                    -14px -14px 28px #352e36;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+        height: 88vh;
+      }
+
+        
+    .itemContainer{
+        padding: 10px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 18px;
+        background: linear-gradient(145deg, #29232a, #221e23);
+        box-shadow:  5px 5px 10px #1d191e,
+                     -5px -5px 10px #2f2930;
+        width: 97%;
+    }
+
+      .toggle {
+        isolation: isolate;
+        position: relative;
+        height: 30px;
+        width: 60px;
+        border-radius: 15px;
+        overflow: hidden;
+        border-radius: 41px;
+        background: #7B0707;
+        box-shadow: inset 7px 7px 13px #560505,
+                    inset -7px -7px 13px #a00909;
+      }
+      
+      .toggle-state {
+        display: none;
+      }
+      
+      .indicator {
+        height: 100%;
+        width: 200%;
+        background: #ecf0f3;        border-radius: 15px;
+        transform: translate3d(-75%, 0, 0);
+        transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+      }
+      
+      .toggle-state:checked ~ .indicator {
+        transform: translate3d(25%, 0, 0);
+      }
   }
 
   @media screen and (max-width: 600px) {
@@ -423,12 +504,86 @@ li{
         height: 50px;
         position: fixed;
         top: 84%;
-        left: 84%;
+        left: 82%;
         color:#F7253C;
         border-radius: 18px;
         background: #262127;
         box-shadow: inset 16px 16px 69px #181418,
                     inset -16px -16px 69px #342e36;
     }
+
+    .itemListContainer::-webkit-scrollbar {
+        width: 0px;
+      }
+      
+      .itemListContainer::-webkit-scrollbar-track {
+        border-radius: 31px;
+        background: #b80000;
+        box-shadow: inset 50px 50px 100px #1e1a1f,
+                    inset -50px -50px 100px #2e2831;
+      }
+      
+      .itemListContainer::-webkit-scrollbar-thumb {
+        background: #b80000;
+        border-radius: 31px;
+      }
+      
+      .itemListContainer::-webkit-scrollbar-thumb:hover {
+        background: #790101;border-radius: 31px;
+      }
+    
+      .todoBody{
+        border-radius: 15px;
+        background: linear-gradient(145deg, #282229, #211d22);
+        box-shadow:  14px 14px 28px #151216,
+                    -14px -14px 28px #352e36;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+        height: 88vh;
+      }
+
+        
+    .itemContainer{
+        padding: 10px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 18px;
+        background: linear-gradient(145deg, #29232a, #221e23);
+        box-shadow:  5px 5px 10px #1d191e,
+                     -5px -5px 10px #2f2930;
+        width: 97%;
+    }
+
+      .toggle {
+        isolation: isolate;
+        position: relative;
+        height: 30px;
+        width: 60px;
+        border-radius: 15px;
+        overflow: hidden;
+        border-radius: 41px;
+        background: #7B0707;
+        box-shadow: inset 7px 7px 13px #560505,
+                    inset -7px -7px 13px #a00909;
+      }
+      
+      .toggle-state {
+        display: none;
+      }
+      
+      .indicator {
+        height: 100%;
+        width: 200%;
+        background: #ecf0f3;        border-radius: 15px;
+        transform: translate3d(-75%, 0, 0);
+        transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+      }
+      
+      .toggle-state:checked ~ .indicator {
+        transform: translate3d(25%, 0, 0);
+      }
       
   }
