@@ -4,7 +4,7 @@ This is a simple Todo List application built using React. It allows users to add
 
 ## Demo
 
-[Insert link to live demo here]
+https://omarrusso23.github.io/React-ToDo-List/
 
 ## Screenshots
 
