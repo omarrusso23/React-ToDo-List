@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/http//:omarrusso23.github.io/React-ToDo-List/static/css/main.b8d5764e.css",
-    "main.js": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/main.1419e50d.js",
-    "static/js/453.ac79db8d.chunk.js": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/453.ac79db8d.chunk.js",
-    "index.html": "/http//:omarrusso23.github.io/React-ToDo-List/index.html",
-    "main.b8d5764e.css.map": "/http//:omarrusso23.github.io/React-ToDo-List/static/css/main.b8d5764e.css.map",
-    "main.1419e50d.js.map": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/main.1419e50d.js.map",
-    "453.ac79db8d.chunk.js.map": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/453.ac79db8d.chunk.js.map"
+    "main.css": "/React-ToDo-List/static/css/main.b8d5764e.css",
+    "main.js": "/React-ToDo-List/static/js/main.f2b09558.js",
+    "static/js/453.ac79db8d.chunk.js": "/React-ToDo-List/static/js/453.ac79db8d.chunk.js",
+    "index.html": "/React-ToDo-List/index.html",
+    "main.b8d5764e.css.map": "/React-ToDo-List/static/css/main.b8d5764e.css.map",
+    "main.f2b09558.js.map": "/React-ToDo-List/static/js/main.f2b09558.js.map",
+    "453.ac79db8d.chunk.js.map": "/React-ToDo-List/static/js/453.ac79db8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8d5764e.css",
-    "static/js/main.1419e50d.js"
+    "static/js/main.f2b09558.js"
   ]
 }
