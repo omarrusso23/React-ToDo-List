@@ -42,7 +42,7 @@ const TodoList = () => {
     <div className="todoContainer">
       <div className="todoBody">
         <div className="title">
-          <h1>Todo List</h1>
+          <h1>To do List</h1>
         </div>
         <div className="Add">
           {showAddTodo && <AddTodo onAdd={handleAddTodo} />}

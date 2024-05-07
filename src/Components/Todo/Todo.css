@@ -1,7 +1,8 @@
 .todoContainer{
     display: flex;
     justify-content: center;
-    width: 30%;
+    min-width: 600px;
+    padding: 10px;
     height: 90vh;
     top:5vh;
     position: relative;
@@ -301,3 +302,133 @@ li{
     margin-right: 4px;
   }
   
+
+  @media screen and (max-width: 1200px) {
+    .todoContainer{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        height: 90vh;
+        top:5vh;
+        position: relative;
+        border-radius: 9px;
+    background: linear-gradient(145deg, #29232a, #221e23);
+    box-shadow:  8px 8px 12px #141114,
+                 -8px -8px 12px #38313a;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    body{
+        overflow: hidden;
+    }
+    
+    .todoContainer{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: 90vh;
+        top:5vh;
+        position: relative;
+        border-radius: 9px;
+    background: linear-gradient(145deg, #29232a, #221e23);
+    box-shadow:  8px 8px 12px #141114,
+                 -8px -8px 12px #38313a;
+    }
+
+    .addButton{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 85%;
+        left: 85%;
+        color:#F7253C;
+        border-radius: 18px;
+        background: #262127;
+        box-shadow: inset 16px 16px 69px #181418,
+                    inset -16px -16px 69px #342e36;
+    }
+
+    .itemListContainer::-webkit-scrollbar {
+        width: 0px;
+      }
+      
+      .itemListContainer::-webkit-scrollbar-track {
+        border-radius: 31px;
+        background: #b80000;
+        box-shadow: inset 50px 50px 100px #1e1a1f,
+                    inset -50px -50px 100px #2e2831;
+      }
+      
+      .itemListContainer::-webkit-scrollbar-thumb {
+        background: #b80000;
+        border-radius: 31px;
+      }
+      
+      .itemListContainer::-webkit-scrollbar-thumb:hover {
+        background: #790101;border-radius: 31px;
+      }
+    
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .todoContainer{
+        display: flex;
+        justify-content: center;
+        min-width: 10%;
+        height: 100vh;
+        top:1vh;
+        position: relative;
+        border-radius: 9px;
+    background: linear-gradient(145deg, #29232a, #221e23);
+    box-shadow:  8px 8px 12px #141114,
+                 -8px -8px 12px #38313a;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+    
+    .title h1 {
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+      }
+      .title h1:before {
+        width: 28px;
+        height: 5px;
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        margin-left: -14px;
+        background-color: #b80000;
+      }
+      .title h1:after {
+        width: 100px;
+        height: 1px;
+        display: block;
+        content: "";
+        position: relative;
+        margin-top: 25px;
+        left: 50%;
+        margin-left: -50px;
+        background-color: #b80000;
+      }
+
+      .addButton{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 84%;
+        left: 84%;
+        color:#F7253C;
+        border-radius: 18px;
+        background: #262127;
+        box-shadow: inset 16px 16px 69px #181418,
+                    inset -16px -16px 69px #342e36;
+    }
+      
+  }
