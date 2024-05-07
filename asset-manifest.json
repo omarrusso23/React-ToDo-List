@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http//:omarrusso23.github.io/React-ToDo-List/static/css/main.b8d5764e.css",
+    "main.js": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/main.1419e50d.js",
+    "static/js/453.ac79db8d.chunk.js": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/453.ac79db8d.chunk.js",
+    "index.html": "/http//:omarrusso23.github.io/React-ToDo-List/index.html",
+    "main.b8d5764e.css.map": "/http//:omarrusso23.github.io/React-ToDo-List/static/css/main.b8d5764e.css.map",
+    "main.1419e50d.js.map": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/main.1419e50d.js.map",
+    "453.ac79db8d.chunk.js.map": "/http//:omarrusso23.github.io/React-ToDo-List/static/js/453.ac79db8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8d5764e.css",
+    "static/js/main.1419e50d.js"
+  ]
+}
