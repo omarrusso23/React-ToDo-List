@@ -41,7 +41,7 @@ const TodoList = () => {
   return (
     <div className="todoContainer">
       <div className="todoBody">
-        <div className="title">
+        <div className={`title ${showAddTodo ? 'blurBackground' : ''}`}>
           <h1>To do List</h1>
         </div>
         <div className="Add">

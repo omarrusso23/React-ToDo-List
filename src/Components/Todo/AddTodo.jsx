@@ -18,12 +18,12 @@ const AddTodo = ({ onAdd }) => {
     <form onSubmit={handleSubmit} className="addForm">
       <input
         type="text"
-        placeholder="Add a new todo"
+        placeholder="Add item"
         value={title}
         onChange={handleChange}
         className="addText"
       />
-      <button type="submit">Add To List</button>
+      <button type="submit" className="addItemButton">Add To List</button>
     </form>
   );
 };

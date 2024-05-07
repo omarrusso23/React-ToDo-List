@@ -213,10 +213,11 @@ li{
 }
 
 .addForm{
+    width: 70%;
     border-radius: 28px;
     background: linear-gradient(145deg, #29232a, #221e23);
     box-shadow:  5px 5px 14px #0f0d10,
-                 -5px -5px 14px #0f0d10;
+                 -5px -5px 14px #221e23;
 }
 
 .buttonCheck{
@@ -227,8 +228,10 @@ li{
 }
 
 .addText{
-    width: 90%;
-    border-radius: 15px;
+    width: 93%;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
     background: #262027;
     box-shadow: inset 50px 50px 100px #1e191e,
                 inset -50px -50px 100px #2e2730;
@@ -238,6 +241,15 @@ li{
 .addText::placeholder {
     color: white;
     padding: 10px;
+  }
+
+  .addItemButton{
+    border-radius:10px;
+    background: #1C181D;
+    box-shadow: inset 20px 20px 60px #181419,
+                inset -20px -20px 60px #201c21;
+    color: white;
+    width: 100%;
   }
 
   form{
@@ -451,6 +463,13 @@ li{
       .toggle-state:checked ~ .indicator {
         transform: translate3d(25%, 0, 0);
       }
+
+      .addForm{
+        border-radius: 28px;
+        background: linear-gradient(145deg, #29232a, #221e23);
+        box-shadow:  5px 5px 14px #0f0d10,
+                     -5px -5px 14px #221e23;
+    }
   }
 
   @media screen and (max-width: 600px) {
