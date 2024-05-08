@@ -8,9 +8,10 @@ https://omarrusso23.github.io/React-ToDo-List/
 
 ## Screenshots
 
-![image](https://github.com/omarrusso23/React-ToDo-List/assets/47570054/e284b507-3676-4a71-9579-c4265845e702)
+![image](https://github.com/omarrusso23/React-ToDo-List/assets/47570054/49b97f7b-2a33-4dc5-beac-8440d52335b0)
 
-![image](https://github.com/omarrusso23/React-ToDo-List/assets/47570054/c6198bf4-99be-4686-896d-5549d13d16de)
+
+![image](https://github.com/omarrusso23/React-ToDo-List/assets/47570054/e125e1bd-5ca6-4e60-8bf4-7dd172641105)
 
 
 ## Installation
